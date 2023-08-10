@@ -1,0 +1,59 @@
+*{
+    margin: 0 auto;
+}
+#slaytalani{
+    width: 1000px;
+    height: 350px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+}
+#resim{
+    width: 1000px;
+    height: 350px;
+    position: relative;
+}
+
+.solalani{
+    height: 350px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sagalani{
+    height: 350px;
+    width: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    text-align: right;
+    cursor: pointer;
+}
+.sol{
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    left: 25px;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+}
+
+.sag{
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    right: 25px;
+    opacity: 0;
+    transition: all .5s ease-in-out 0s;
+}
+.solalani:hover .sol{
+   opacity: 1;
+}
+.sagalani:hover.sag{
+   opacity: 1;
+   color: brown;
+}
